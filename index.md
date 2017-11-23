@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## How to Build a Battle Bot
 
 You can use the [editor on GitHub](https://github.com/scottbarnesg/battle_bot/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
