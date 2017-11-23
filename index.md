@@ -6,11 +6,21 @@ School of Engineering & Applied Science
 
 
 ## Introduction
-We present a step-by-step process for creating your own remote-controlled battle bot from scratch, covering all hardware and software used in our design. While the goal of our project was to design a battle bot, the electrical design and software we used can applied to other robotic applications. We have done our best to provide comprehensive explanations of our source code and wiring diagrams, and have provided a few unit tests to help you along the way.
+We present a step-by-step process for creating your own remote-controlled battle bot from scratch, covering all hardware and software used in our design. While the goal of our project was to design a battle bot, the electrical design and software we used can applied to other robotic applications. We have done our best to provide comprehensive explanations of our source code and wiring diagrams, and have included a few unit tests to help you along the way.
 
 All source code can be found in the project's [GitHub Repository](https://github.com/scottbarnesg/battle_bot). 
 
 ## Project Overview
+Our system consists of two major components: the controller and the robot. The controller consists of the input device (a Logitech310 USB controller), a Raspberry Pi for processing the  
+controller inputs, and an Arduino for transmitting the signals to the robot. The robot uses a single Arduino to receive signals from the controller, interpret the signals, and sent commands to the drive motor controller and the weapon (a spinning drum). 
+
+## 1.0: Getting it Moving
+The obvious starting point for our robot is to get it to drive around. 
+
+### 1.1: Electronics
+
+### 1.2: Software:
+
 
 
 # Markdown Reference Material (Delete Later)
