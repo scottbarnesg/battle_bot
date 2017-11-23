@@ -15,7 +15,7 @@ Our system consists of two major components: the controller and the robot. The c
 controller inputs, and an Arduino for transmitting the signals to the robot. The robot uses a single Arduino to receive signals from the controller, interpret the signals, and sent commands to the drive motor controller and the weapon (a spinning drum). 
 
 ## 1.0: Getting it Moving
-The obvious starting point for our robot is to get it to drive around. 
+The obvious starting point for our robot is to get it to drive around. We use a simple WASD interface, which moves the robot for a pre-set amount of time in the direction corresponding to the key input. This is the best way to ensure your core electronics are working correctly before incorporating the RF components. 
 
 ### 1.1: Electronics
 
