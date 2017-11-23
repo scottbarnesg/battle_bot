@@ -10,6 +10,11 @@ We present a step-by-step process for creating your own remote-controlled battle
 
 All source code can be found in the project's [GitHub Repository](https://github.com/scottbarnesg/battle_bot). 
 
+## Project Overview
+
+
+# Markdown Reference Material (Delete Later)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
