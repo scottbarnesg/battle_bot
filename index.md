@@ -1,8 +1,14 @@
-## How to Build a Battle Bot
+# Build you own Battle Bot
 
-You can use the [editor on GitHub](https://github.com/scottbarnesg/battle_bot/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Scott Barnes & Chris Poole
+The George Washington University  
+School of Engineering & Applied Science
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+## Introduction
+We present a step-by-step process for creating your own remote-controlled battle bot from scratch, covering all hardware and software used in our design. While the goal of our project was to design a battle bot, the electrical design and software we used can applied to other robotic applications. We have done our best to provide comprehensive explanations of our source code and wiring diagrams, and have provided a few unit tests to help you along the way.
+
+All source code can be found in the project's [GitHub Repository](https://github.com/scottbarnesg/battle_bot). 
 
 ### Markdown
 
