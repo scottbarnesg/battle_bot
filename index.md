@@ -1,5 +1,6 @@
 # Building a Battle Bot 
-<img src="https://github.com/scottbarnesg/battle_bot/blob/master/render1.JPG" width="400" /> <img src="https://github.com/scottbarnesg/battle_bot/blob/master/render3.jpg" width="450" />
+### A step-by-step guide to designing, building, and programming a battle bot from scratch.
+<img src="https://github.com/scottbarnesg/battle_bot/blob/master/render1.JPG" width="400" /> <img src="https://github.com/scottbarnesg/battle_bot/blob/master/render3.jpg" width="450" />  
 
 #### By: Scott Barnes* & Chris Poole** 
 The George Washington University  
