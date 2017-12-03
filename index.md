@@ -22,6 +22,7 @@ Our system consists of two major components: the controller and the robot. The c
 The obvious starting point for our robot is to get it to drive around. We use a simple WASD keyboard controller, which moves the robot for a pre-set amount of time in the direction corresponding to the key pressed. This is the best way to ensure your core electronics are working correctly before we add in the RF communication
 
 ### 1.1: Electronics:
+Instructions, diagrams, and more coming soon!
 
 ### 1.2: Software:
 We use the [RadioHead Library](http://www.airspayce.com/mikem/arduino/RadioHead/) to communicate between the "controller" and "reciever" arduinos. Our first implementation was actually with these [433 MHz Transmitters](http://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/), which are cheap, easy to use, but highly limited (only 10-20 foot range). If you're using the 2.4 GHz transmitters we had on our final robot, you'll have to replace the receive and transmit parts of the code (we have an in-depth disucssion on transmitting with these transmitters further down). 
@@ -117,6 +118,10 @@ void loop() {
 
 
 ## 2.0: RF Communication Basics
+
+### Electronics
+
+### Software
 
 #### 1.2.1 Transmitter
 First, import the required header files
