@@ -1,11 +1,11 @@
 # Building a Battle Bot 
 ## Design, Electronics, & Software
 
-### Scott Barnes* & Chris Poole** 
-*Smart Systems Laboratory  
-**Flight Dynamics Laboratory  
+#### Scott Barnes* & Chris Poole** 
 The George Washington University  
-School of Engineering & Applied Science  
+School of Engineering & Applied Science 
+*Smart Systems Laboratory  
+**Flight Dynamics Laboratory
 
 
 ## Introduction:
