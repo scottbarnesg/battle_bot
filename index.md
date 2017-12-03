@@ -1,8 +1,7 @@
 # Building a Battle Bot 
-## Design, Electronics, & Software
-<img src="https://github.com/scottbarnesg/battle_bot/blob/master/render1.JPG" width="400" /> <img src="https://github.com/scottbarnesg/battle_bot/blob/master/render3.jpg" width="400" />
+<img src="https://github.com/scottbarnesg/battle_bot/blob/master/render1.JPG" width="400" /> <img src="https://github.com/scottbarnesg/battle_bot/blob/master/render3.jpg" width="450" />
 
-#### Scott Barnes* & Chris Poole** 
+#### By: Scott Barnes* & Chris Poole** 
 The George Washington University  
 School of Engineering & Applied Science   
 _*Smart Systems Laboratory_  
