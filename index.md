@@ -1,8 +1,8 @@
 # Build you own Battle Bot
 
-### Scott Barnes<sup>1</sup> & Chris Poole<sup>2</sup>  
-<sup>1</sup> Smart Systems Laboratory  
-<sup>2</sup> Flight Dynamics Laboratory  
+### Scott Barnes* & Chris Poole** 
+*Smart Systems Laboratory  
+**Flight Dynamics Laboratory  
 The George Washington University  
 School of Engineering & Applied Science  
 
