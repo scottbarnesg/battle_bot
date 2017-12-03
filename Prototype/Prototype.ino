@@ -1,6 +1,3 @@
-#include <RH_ASK.h>
-#include <SPI.h> // Not actualy used but needed to compile
-
 #define ENA 8
 #define ENB 12
 #define L_forward 9
@@ -8,8 +5,6 @@
 #define R_reverse 11
 #define R_forward 6
 
-uint8_t buf[12];
-uint8_t buflen = sizeof(buf);
 int inpt;
 
 void setup() {
