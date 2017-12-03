@@ -30,12 +30,7 @@ We use the [RadioHead Library](http://www.airspayce.com/mikem/arduino/RadioHead/
 [Download the library](http://www.airspayce.com/mikem/arduino/RadioHead/), unzip it, and add it to your Arduino "libraries" folder. Now its ready for use.
 
 #### Prototype Controller Code
-First, import the required header files. (Why are we doing this? We're not actually doing and RF communication in the prototype. I think it should be removed)
-```
-#include <RH_ASK.h>
-#include <SPI.h>
-```
-Then we'll define our pins. These correspond to how your motors are wired to your speed controller arduino pins. 
+First, we'll define our pins. These correspond to how your motors are wired to your speed controller arduino pins. 
 ```
 #define ENA 8
 #define ENB 12
@@ -44,11 +39,9 @@ Then we'll define our pins. These correspond to how your motors are wired to you
 #define R_reverse 11
 #define R_forward 6
 ```
-Then, we create a buffer, which allows the reciever to hold more than one input at a time, enabling improved performance.
+Then, we create global variable for reading inputs from the computer
 ```
-uint8_t buf[12];
-uint8_t buflen = sizeof(buf);
-int read_buffer;
+int inpt;
 ```
 In the setup function, we set our pins to "output" and establish a serial connection with the computer (so that we can communicate with the robot).
 ```
