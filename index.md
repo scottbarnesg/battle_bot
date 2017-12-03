@@ -3,7 +3,7 @@
 
 #### Scott Barnes* & Chris Poole** 
 The George Washington University  
-School of Engineering & Applied Science 
+School of Engineering & Applied Science   
 *Smart Systems Laboratory  
 **Flight Dynamics Laboratory
 
