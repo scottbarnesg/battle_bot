@@ -166,7 +166,13 @@ void loop()
 
 ## 3.0: Putting it All Together
 
-## 4.0: Final Implementation (All Deployed Software)
+## 4.0: Final Implementation (All Deployed Electronics & Software)
+
+### 4.1: Electronics
+
+### 4.2: Software
+
+
 
 # Markdown Reference Material (Delete Later)
 
