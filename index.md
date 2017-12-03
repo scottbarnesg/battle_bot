@@ -30,7 +30,7 @@ We use the [RadioHead Library](http://www.airspayce.com/mikem/arduino/RadioHead/
 [Download the library](http://www.airspayce.com/mikem/arduino/RadioHead/), unzip it, and add it to your Arduino "libraries" folder. Now its ready for use.
 
 #### Prototype Controller Code
-First, import the required header files.
+First, import the required header files. (Why are we doing this? We're not actually doing and RF communication in the prototype. I think it should be removed)
 ```
 #include <RH_ASK.h>
 #include <SPI.h>
