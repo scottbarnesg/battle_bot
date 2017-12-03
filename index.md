@@ -1,6 +1,6 @@
 # Building a Battle Bot 
 #### A step-by-step guide to designing, building, and programming a battle bot from scratch.
-![Render 1](https://github.com/scottbarnesg/battle_bot/blob/master/render2.JPG)
+![Render 1](https://github.com/scottbarnesg/battle_bot/blob/master/render2.jpg)
 
 #### By: Scott Barnes* & Chris Poole** 
 The George Washington University  
