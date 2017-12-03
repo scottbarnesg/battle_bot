@@ -2,10 +2,10 @@
 ## Design, Electronics, & Software
 
 #### Scott Barnes* & Chris Poole** 
-The George Washington University  
-School of Engineering & Applied Science   
-*Smart Systems Laboratory  
-**Flight Dynamics Laboratory
+_The George Washington University_  
+_School of Engineering & Applied Science_   
+_*Smart Systems Laboratory_  
+_**Flight Dynamics Laboratory_
 
 
 ## Introduction:
