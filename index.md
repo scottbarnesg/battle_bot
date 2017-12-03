@@ -11,7 +11,7 @@ School of Engineering & Applied Science
 ## Introduction:
 We present a step-by-step process for creating your own remote-controlled battle bot from scratch, covering all hardware and software used in our design. While the goal of our project was to design a battle bot, the electrical design and software we used can applied to other robotic applications. We have done our best to provide comprehensive explanations of our source code and wiring diagrams, and have included a few unit tests to help you along the way.
 
-We'll walk you through our entire design process. However, if you'd just like to skip to the fully functioning code for the full system, feel free to skip to the end of the tutorial. 
+We'll walk you through our entire design process. However, if you'd just like to skip to the fully functioning code for the deployed system, feel free to skip to the [end](##Final-Implementation-(All-Deployed-Software)). 
 
 All source code can be found in the project's [GitHub Repository](https://github.com/scottbarnesg/battle_bot). 
 
@@ -124,6 +124,7 @@ void loop() {
 ### Software
 
 #### 1.2.1 Transmitter
+
 First, import the required header files
 ```
 #include <RH_ASK.h>
@@ -162,6 +163,10 @@ void loop()
   }
 }
 ```
+
+## 3.0: Putting it All Together
+
+## Final Implementation (All Deployed Software)
 
 # Markdown Reference Material (Delete Later)
 
