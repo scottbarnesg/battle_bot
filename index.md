@@ -1,4 +1,5 @@
-# Build you own Battle Bot
+# Building a Battle Bot 
+## Design, Electronics, & Software
 
 ### Scott Barnes* & Chris Poole** 
 *Smart Systems Laboratory  
