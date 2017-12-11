@@ -110,53 +110,14 @@ void loop() {
 
 ## 2.0: RF Communication Basics
 
-### Electronics
+### 2.1: Electronics
 
-### Software
-We use the [RadioHead Library](http://www.airspayce.com/mikem/arduino/RadioHead/) to communicate between the "controller" and "reciever" arduinos. Our first implementation was actually with these [433 MHz Transmitters](http://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/), which are cheap, easy to use, but highly limited (only 10-20 feet) in range. If you're using the 2.4 GHz transmitters we had on our final robot, you'll have to replace the receive and transmit parts of the code (we have an in-depth disucssion on communicating with these transmitters in Section 2.0). 
+### 2.2: Software
 
-[Download the library](http://www.airspayce.com/mikem/arduino/RadioHead/), unzip it, and add it to your Arduino "libraries" folder. Now its ready for use.
 
-#### 1.2.1 Transmitter
+#### 2.2.1: Transmitter
 
-First, import the required header files
-```
-#include <RH_ASK.h>
-#include <SPI.h>
-```
-Then, we name the library's driver struct to something useful (we call it transmitter). We also define a constant char (used by the driver to determine the transmittion bit length) and an int to get the keyboard input.
-```
-RH_ASK transmitter;
-const char *msg = "a";
-int inpt;
-```
-The setup function is pretty standard: we create a serial connection with the computer and initialize the transmitter
-```
-void setup()
-{
-    Serial.begin(9600);
-    if (!transmitter.init()){
-         Serial.println("Failed to Initialized");
-    }
-    else{
-      Serial.println("Successfully Initialized");
-    }
-}
-```
-Now for the loop function. First, we check for a new input from the serial port and read those incoming values as an int. However, this library transmits a char - so we cast the input to a char (we will re-cast it on receiver end). Then, we transmit the value using the syntax defined in the library's function and wait for the packets to finish sending.
-```
-void loop()
-{
-  if(Serial.available() > 0)
-  {
-    inpt = Serial.read();
-    char t = (char)inpt;
-    msg = &t;
-    transmitter.send((uint8_t*)msg, strlen(msg));
-    transmitter.waitPacketSent();
-  }
-}
-```
+### 2.2.2: Receiver
 
 ## 3.0: Putting it All Together
 
