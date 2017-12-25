@@ -115,7 +115,45 @@ void loop() {
 ### 2.2: Software
 
 
-#### 2.2.1: Transmitter
+#### 2.2.1: Transmitter  
+First, import the requred libraries.
+```
+#include <SPI.h>
+#include <nRF24L01.h>
+#include <RF24.h>
+```
+Then, we'll assign the Arduino pins to be used for the transmitter's CE and CSN pins:
+```
+RF24 radio(7, 8); // CE, CSN
+```
+Next, we select the address in memory where the message will be stored, define a constant char to define the transmission length, and create an int that will be used to hold input values.
+```
+const byte address[6] = "00001";
+const char *msg = "a";
+int read_buffer;
+```
+In the setup function, we create a serial connection and turn on the transciever. We put it in 'transmit' mode by stopping the 'listening' function.
+```
+void setup() {
+  Serial.begin(115200);
+  Serial.setTimeout(1);
+  radio.begin();
+  radio.openWritingPipe(address);
+  radio.setPALevel(RF24_PA_MIN);
+  radio.stopListening();
+}
+```
+In the infinite loop, we constantly check for a serial input. If there is one, cast it to a char, and give a pointer to it to the radio function, which transmits the value to the reciever.
+```
+void loop() {
+  if(Serial.available() > 0){
+    read_buffer = Serial.read();
+    char t = (char)read_buffer;
+    msg = &t;
+    radio.write(&t, sizeof(t));    
+  }
+}
+```
 
 #### 2.2.2: Receiver
 
