@@ -153,7 +153,7 @@ void loop() {
     radio.write(&t, sizeof(t));    
   }
 }
-```
+```  
 
 #### 2.2.2: Receiver
 
