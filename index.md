@@ -159,7 +159,7 @@ void loop() {
 
 
 
-## 3.0: Putting it All Together
+## 3.0: Advanced Motor Control
 
 ## 4.0: Final Implementation (All Deployed Electronics & Software)  
 Finally! Here's everything we used in our final implementation (Coming Soon).
