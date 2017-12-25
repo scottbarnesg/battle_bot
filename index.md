@@ -155,7 +155,9 @@ void loop() {
 }
 ```  
 
-#### 2.2.2: Receiver
+#### 2.2.2: Receiver  
+
+
 
 ## 3.0: Putting it All Together
 
